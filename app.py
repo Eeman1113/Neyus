@@ -13,7 +13,7 @@ clicked = st.button('Configure',help='If the AI dosent work pleases click here')
 if clicked==True:
     os.system('pip3 install openai')
     import openai
-    os.system('sudo pip install --upgrade bs4')
+    os.system('pip install --upgrade bs4')
     os.system('pip install lxml')
 st.markdown('---')
 st.title('Random NLP App')
