@@ -1,6 +1,6 @@
 import streamlit as st 
 import os
-import openai
+
 import requests#used fror getting websites in the code 
 from bs4 import BeautifulSoup#used for web scraping 
 import json#importing java in python
@@ -12,6 +12,7 @@ import random
 clicked = st.button('Configure',help='If the AI dosent work pleases click here')
 if clicked==True:
     os.system('pip3 install openai')
+    import openai
     os.system('pip install lxml')
 st.markdown('---')
 st.title('Random NLP App')
